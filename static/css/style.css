@@ -1,0 +1,17 @@
+/* Sticky footer */
+body {
+    display: flex;
+    min-height: 100vs;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+
+/* Home page info section */
+#profile-pic {
+    max-width: 200px;
+}
+#my-info {
+    padding-top: 50px;
+}
