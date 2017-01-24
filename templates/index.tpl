@@ -10,7 +10,7 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Welcome</title>
+    <title>Shayne Kelly II</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
                 <div class="navbar-wrapper blue darken-1">
                     <div class="container">
                         <div class="col s12">
-                            <!--<a href="#!" class="brand-logo hide-on-med-and-down">Shayne Kelly II</a>-->
+                            <a href="#!" class="brand-logo hide-on-med-and-down">sk</a>
                             <a href="#" data-activates="mobile-demo" class="button-collapse">
                                 <i class="material-icons">menu</i>
                             </a>

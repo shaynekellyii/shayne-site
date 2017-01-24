@@ -20,4 +20,8 @@ def style(file):
 def img(file):
     return static_file(file, root='static/img/')
 
+@route('/favicon.ico')
+def favicon():
+    return static_file('favicon.ico', root='static/img/')
+
 run(host='0.0.0.0', port=8000, debug=True, reloader=True)
