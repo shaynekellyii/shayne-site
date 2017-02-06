@@ -1,4 +1,4 @@
-from bottle import route, run, request, static_file, template, post, error
+from bottle import route, run, request, static_file, template, post, error, PasteServer
 
 @route('/')
 def homePage():
@@ -24,4 +24,4 @@ def img(file):
 def favicon():
     return static_file('favicon.ico', root='static/img/')
 
-run(host='0.0.0.0', port=8000, debug=True, reloader=True)
+run(host='0.0.0.0', port=80, debug=True, reloader=True, server=PasteServer)
