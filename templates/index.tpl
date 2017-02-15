@@ -27,11 +27,9 @@
                             </a>
                             <ul id="nav-mobile" class="right hide-on-med-and-down">
                                <li><a href="#!">Home</a></li>
-                               <li><a href="insta-check">Instagram</a></li>
                             </ul>
                             <ul class="side-nav" id="mobile-demo">
                                 <li><a href="#!">Home</a></li>
-                                <li><a href="insta-check">Instagram</a></li>
                             </ul>
                         </div>
                     </div>
