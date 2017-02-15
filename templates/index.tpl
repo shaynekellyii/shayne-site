@@ -26,10 +26,14 @@
                                 <i class="material-icons">menu</i>
                             </a>
                             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                               <li><a href="#!">Home</a></li>
+                                % for navLink in navLinks:
+                                <li><a href="{{navLink.link}}">{{navLink.title}}</a></li>
+                                % end
                             </ul>
                             <ul class="side-nav" id="mobile-demo">
-                                <li><a href="#!">Home</a></li>
+                                % for navLink in navLinks:
+                                <li><a href="{{navLink.link}}">{{navLink.title}}</a></li>
+                                % end
                             </ul>
                         </div>
                     </div>

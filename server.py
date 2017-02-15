@@ -1,8 +1,13 @@
-from bottle import route, run, request, static_file, template, post, error, PasteServer
+from bottle import route, run, static_file, template, error, PasteServer
+from models.navItem import NavItem
+
+##############################################
+# Routing                                    #
+##############################################
 
 @route('/')
 def homePage():
-    return template('templates/index.tpl')
+    return template('templates/index.tpl', navLinks=navLinks)
 
 
 @route('/insta-check/<username>')
@@ -32,6 +37,14 @@ def favicon():
 
 @error(404)
 def error404(self):
-    return template('templates/notfound.tpl')
+    return template('templates/notfound.tpl', navLinks=navLinks)
+
+
+##############################################
+# Other                                      #
+##############################################
+
+navLinks = []
+navLinks.append(NavItem("Home", "/"))
 
 run(host='0.0.0.0', port=80, debug=True, reloader=True, server=PasteServer)

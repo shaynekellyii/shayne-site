@@ -27,10 +27,14 @@
                             <i class="material-icons">menu</i>
                         </a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <li><a href="#!">Home</a></li>
+                            % for navLink in navLinks:
+                            <li><a href="{{navLink.link}}">{{navLink.title}}</a></li>
+                            % end
                         </ul>
                         <ul class="side-nav" id="mobile-demo">
-                            <li><a href="#!">Home</a></li>
+                            % for navLink in navLinks:
+                            <li><a href="{{navLink.link}}">{{navLink.title}}</a></li>
+                            % end
                         </ul>
                     </div>
                 </div>
@@ -42,9 +46,9 @@
 <!-- Page content -->
 <main class="valign-wrapper">
     <div class="row valign">
-    <h3 class="light red-text center-align">404. That's an error.</h3>
-    <h5 class="light black-text darken-1 center-align">Sorry, but we couldn't find what you were looking
-        for.</h5>
+        <h3 class="light red-text center-align">404. That's an error.</h3>
+        <h5 class="light black-text darken-1 center-align">Sorry, but we couldn't find what you were looking
+            for.</h5>
     </div>
 </main>
 
