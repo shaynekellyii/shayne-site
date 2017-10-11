@@ -1,2 +1,3 @@
 # IDEA config files
 .idea/
+djangosite/djangosite/secrets.py

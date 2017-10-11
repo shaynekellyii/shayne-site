@@ -25,7 +25,8 @@
                             <a href="#" data-activates="mobile-demo" class="button-collapse">
                                 <i class="material-icons">menu</i>
                             </a>
-                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <!-- Navbar unneeded for now -->
+                            <!--<ul id="nav-mobile" class="right hide-on-med-and-down">
                                 % for navLink in navLinks:
                                 <li><a href="{{navLink.link}}">{{navLink.title}}</a></li>
                                 % end
@@ -34,7 +35,7 @@
                                 % for navLink in navLinks:
                                 <li><a href="{{navLink.link}}">{{navLink.title}}</a></li>
                                 % end
-                            </ul>
+                            </ul>-->
                         </div>
                     </div>
                 </div>
@@ -165,7 +166,7 @@
         <div class="footer-copyright">
             <div class="container">
                 &#169; 2017 Shayne Kelly II
-                <a class="grey-text text-lighten-4 right" href="#!">shaynekelly.com</a>
+                <a class="grey-text text-lighten-4 right" href="#!">shaynek.com</a>
             </div>
         </div>
     </footer>
